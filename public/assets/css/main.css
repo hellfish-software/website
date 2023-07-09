@@ -1,0 +1,50 @@
+@font-face {
+  font-family: monolith;
+  src: url(../font/Monolita.otf);
+}
+@font-face {
+  font-family: roboto;
+  src: url(../font/Roboto-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #161925;
+  color: #fff;
+  font-family: roboto;
+}
+
+a {
+  color: #fc60a8;
+}
+
+#headBannerOuter {
+  background-color: #fff386;
+}
+
+#headerBanner {
+  color: #000;
+}
+#headerBanner .title {
+  font-family: monolith;
+  font-size: 28pt;
+  letter-spacing: 10pt;
+  font-weight: bold;
+}
+
+#content {
+  padding-top: 2em;
+  min-height: 60vh;
+}
+#content p {
+  font-size: 14pt;
+}
+
+.footer {
+  font-size: 12pt;
+  text-align: center;
+  color: #aaa;
+}/*# sourceMappingURL=main.css.map */
