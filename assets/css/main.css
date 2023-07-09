@@ -25,6 +25,10 @@ a {
   background-color: #fff386;
 }
 
+#headBannerOuterBlack {
+  background-color: #000;
+}
+
 #headerBanner {
   color: #000;
 }
@@ -41,6 +45,21 @@ a {
 }
 #content p {
   font-size: 14pt;
+}
+#content .card {
+  background-color: #000;
+  border: none;
+  color: #fff;
+}
+#content .card .btn-primary {
+  background-color: #fc60a8;
+  border-color: #fc60a8;
+}
+
+.card-title {
+  color: #f15025;
+  font-family: roboto;
+  font-weight: bold;
 }
 
 .footer {
